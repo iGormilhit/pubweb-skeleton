@@ -1,0 +1,20 @@
+/*
+ * Feuille de style de mon magnifique site Web
+ * Par iGor
+ */
+
+footer {
+	text-align: center;
+}
+
+img {
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 20px;
+}
+
+#logo {
+	width: 6em;
+	border: none;
+	border-radius: 0px;
+}
