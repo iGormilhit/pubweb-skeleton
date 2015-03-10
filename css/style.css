@@ -18,3 +18,11 @@ img {
 	border: none;
 	border-radius: 0px;
 }
+
+a.externe {
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-image: url(../images/lien-externe.svg);
+	background-size: 8px;
+	padding-right: 10px;
+}
