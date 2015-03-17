@@ -3,20 +3,34 @@
  * Par iGor
  */
 
-footer {
-	text-align: center;
-}
 
-img {
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 20px;
-}
+/* ----------------------------
+ *            En-tête
+ * ---------------------------- */
 
 #logo {
 	width: 6em;
 	border: none;
 	border-radius: 0px;
+	float: left;
+}
+
+#entete {
+	max-width: 90%;	
+	margin: 2em auto;
+}
+
+
+/* ----------------------------
+ *     Partie principale      
+ * ---------------------------- */
+
+img {
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 20px;
+	width: 100%;
+	max-width: 600px;
 }
 
 a.externe {
@@ -25,4 +39,12 @@ a.externe {
 	background-image: url(../images/lien-externe.svg);
 	background-size: 8px;
 	padding-right: 10px;
+}
+
+/* ----------------------------
+ *         Pied de page       
+ * ---------------------------- */
+
+footer {
+	text-align: center;
 }
