@@ -24,6 +24,24 @@
 	margin: 2em auto;			/* marge en haut et en bas, automatique sur les côtés */
 }
 
+/* ----------------------------
+ *           Menu
+ * ---------------------------- */
+
+nav li {						/* sélecteur composé sur les list-items du menu */
+	display: inline-block;		/* place les list-items en ligne plutôt qu'en bloc */
+	list-style: none;			/* supprime les puces */
+	min-width: 100px;			/* fixe une largeur minimale des list-items */
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #1EAEDB;
+	padding: 3px 0;
+}
+
+nav a {							/* sélecteur composé sur les liens du menu */
+	text-decoration: none;		/* pour que les liens ne soient pas soulignés */
+}
 
 /* ----------------------------
  *     Partie principale      
@@ -46,9 +64,24 @@ a.externe {
 }
 
 /* ----------------------------
+ *         Galerie       
+ * ---------------------------- */
+
+#galerie img {
+	display: inline;
+	max-width: 306px;
+	margin: 5px 5px;
+}
+
+#galerie img:hover {
+	max-width: 600px;
+}
+
+/* ----------------------------
  *         Pied de page       
  * ---------------------------- */
 
 footer {						/* ATTENTION : s'applique à TOUS les footer du site ! */
 	text-align: center;
+	margin: 2em 0;
 }

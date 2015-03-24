@@ -5,7 +5,7 @@
 		<!-- Basic Page Needs
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<meta charset="utf-8">
-		<title>À propos | Mon magnifique site Web !</title>
+		<title>Galerie | Mon magnifique site Web !</title>
 		<meta name="description" content="Le plus beau des sites Web, sur la base du template Skeleton, pour le cours de publication Web.">
 		<meta name="author" content="iGor milhit">
 
@@ -20,8 +20,8 @@
 		<!-- CSS
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/skeleton.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/skeleton.css"> 
+		<link rel="stylesheet" href="css/style.css"> 
 
 		<!-- Favicon
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -30,19 +30,19 @@
 	</head>
 	<body>
 
-		<!-- Contenu de la page d'à propos
+		<!-- Primary Page Layout
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-		<!-- En-tête
+		<!-- En-tête (ajouté par iGor)
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 		<header id="entete">
-			<a href="index.html" title="Retour à l'accueil"><img src="images/logo.svg" alt="le logo HTML5" title="le logo HTML5" id="logo"></a>
+			<a href="index.html" "Retour à l'accueil"><img src="images/logo.svg" alt="le logo HTML5" title="le logo HTML5" id="logo"></a>
 			<h1>Mon magnifique site Web !</h1>
 			<h2>Ou comment j'ai appris à faire du Web.</h2>
 		</header>
 
-		<!-- Menu
+		<!-- Menu (ajouté par iGor)
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 		<div class="container">
@@ -55,33 +55,37 @@
 			</nav>
 		</div>
 
-		<!-- Partie principale
+		<!-- Partie principale (la galerie)
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 		<article class="container">
 
 			<header>
-				<h1>À propos ...</h1>
-				<h2>... de mon magnifique site Web</h2>
+				<h1>La galerie photo</h1>
+				<h2>Un exercice de positionnement</h2>
 			</header>
 
-			<article>
-				<p>Le site que vous avez l'insigne honneur de parcourir, est réalisé sur la base du <em>template <a href="http://getskeleton.com" class="externe" title="Site officiel du template Skeleton">Skeleton</a></em>. Il est fort simple, simplicime même, voire simpliste. Il faut dire que ce site est en cours de réalisation, avec une visée pédagogique principalement. Il est construit petit à petit, au fil des ateliers, afin de découvrir quelques bases de <code>html</code> et des feuilles de styles <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
-				<a href="https://www.flickr.com/photos/internetarchivebookimages/14598200820/" title="Image originale sur flickr.com"><img src="images/work-in-sight.jpg" alt="Ancienne machine à écrire en noir et blanc"></a>
-				<p>Le texte de la <a href="index.html" title="page d'accueil">page d'accueil</a> est repris, assez improprement d'ailleurs, du <a href="https://fr.wikipedia.org/wiki/Ufologie#Controverses_autour_des_observations_en_ufologie" class="externe" title="Controverse autour des observations en ufologie">dernier point</a> de l'article Wikipédia au sujet de l'<a href="https://fr.wikipedia.org/wiki/Ufologie" class="externe" title="article wikipédia sur l'Ufologie"><em>Ufologie</em></a>. Il est utilisé ici à la manière d'un texte prétexte qui offre une structure minimale, afin d'utiliser les balise <code>h3</code>, <code>h4</code>, <code>h5</code>. Et en plus, il est relativement amusant, même s'il manque de neutralité !</p>
-				<a href="https://www.flickr.com/photos/internetarchivebookimages/14753012491" title="Image originale sur flickr.com"><img src="images/keys.jpg" alt="layout de clavier de machine à écrire"></a>
+			<article id="galerie">
+
+				<img src="images/choulet-totems.jpg" alt="arbres morts près d'un marais" title="Les totems de Choulet">
+				<img src="images/lointaine-proximite-horizontale.jpg" alt="prés fleuris au premier plan, nuages au deuxième plan" title="Lointaine proximité horizontale">
+				<img src="images/marais-celestes.jpg" alt="joncs au premier et deuxième plan, nuages en fonds" title="Marais célestes">
+				<img src="images/open-seymaz.jpg" alt="vue large sur le marais de la Seymaz, avec une montagne en fond" title="Open Seymaz">
+				<img src="images/port-eaux-vives.jpg" alt="le port des Eaux-Vives au coucher du soleil" title="Port des Eaux-Vives">
+				<img src="images/terrasse-paradis.jpg" alt="parasols au vent, sur la terrasse du Paradis, Genève" title="Terrasse du Paradis">
+
 			</article>
 
 		</article>
 
-		<!-- Pied de page
+		<!-- Pied de page (ajouté par iGor)
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 		<footer>
 			<small>Ce site est sous licence <a href="http://copyheart.org/" class="externe" title="Site de la licence Copyheart"><em>&#9825; Copyheart</em></a>.</small>
 		</footer>
 
-	<!-- End Document
+		<!-- End Document
 	––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	</body>
 </html>
