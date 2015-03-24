@@ -1,6 +1,10 @@
 /*
  * Feuille de style de mon magnifique site Web
  * Par iGor
+ *
+ * Légèrement structurée
+ * Avec des commentaires
+ *
  */
 
 
@@ -9,15 +13,15 @@
  * ---------------------------- */
 
 #logo {
-	width: 6em;
-	border: none;
-	border-radius: 0px;
-	float: left;
+	width: 6em;					/* fixe la taille du SVG, en valeur relative */
+	border: none;				/* supprime la bordure, l.28 */
+	border-radius: 0px;			/* supprime les coins arrondis, l.28*/
+	float: left;				/* place le logo à gauche des titres */
 }
 
-#entete {
-	max-width: 90%;	
-	margin: 2em auto;
+#entete {						/* distigue ce header des autres de la page */
+	max-width: 90%;				/* fixe une largeur maximale */
+	margin: 2em auto;			/* marge en haut et en bas, automatique sur les côtés */
 }
 
 
@@ -29,22 +33,22 @@ img {
 	border-width: 1px;
 	border-style: solid;
 	border-radius: 20px;
-	width: 100%;
-	max-width: 600px;
+	width: 100%;				/* adapte la taille de l'image à l'espace disponible */
+	max-width: 600px;			/* mais pas plus large que 600px */
 }
 
 a.externe {
-	background-position: right top;
-	background-repeat: no-repeat;
-	background-image: url(../images/lien-externe.svg);
-	background-size: 8px;
-	padding-right: 10px;
+	background-position: right top;						/* place l'image de fond */
+	background-repeat: no-repeat;						/* empêche la répétition de l'image */
+	background-image: url(../images/lien-externe.svg);	/* l'image de fond */
+	background-size: 8px;								/* taille de l'image de fond */
+	padding-right: 10px;								/* espace pour l'image */
 }
 
 /* ----------------------------
  *         Pied de page       
  * ---------------------------- */
 
-footer {
+footer {						/* ATTENTION : s'applique à TOUS les footer du site ! */
 	text-align: center;
 }
