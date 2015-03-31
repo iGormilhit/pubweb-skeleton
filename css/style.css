@@ -64,7 +64,7 @@ a.externe {
 }
 
 /* ----------------------------
- *         Galerie       
+ *         Galeries       
  * ---------------------------- */
 
 #galerie img {
@@ -76,6 +76,12 @@ a.externe {
 #galerie img:hover {
 	max-width: 600px;
 }
+
+#galerie2 {
+	margin-top: 40px;
+	padding-top: 20px;
+	border-top: solid 1px;
+} 
 
 /* ----------------------------
  *         Pied de page       
